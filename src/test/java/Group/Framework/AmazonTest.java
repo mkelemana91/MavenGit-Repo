@@ -35,7 +35,7 @@ public class AmazonTest {
     }
 
     //Write test cases on below method
-    @Test(invocationCount = 2)
+    @Test(invocationCount = 3)
     private void test() {
         new Select(driver.findElement(By.id("searchDropdownBox"))).selectByVisibleText("Books");
 
